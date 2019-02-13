@@ -1,4 +1,4 @@
-// // my code only works if arrays sorted
+// solution -1 -- code only works if arrays sorted
 // const same = ( arr1, arr2 ) => {
 //     let result = 0;
 //     if ( arr1.length = arr2.length ) {
@@ -17,7 +17,7 @@
 
 // same( [1,2,3], [1,4,9] );
 
-// // colts naive solution --- O(n^2)
+// // naive solution - 2 --- O(n^2)
 // function same ( arr1, arr2 ) {
 //     if ( arr1.length !== arr2.length ) {
 //         return false;
@@ -34,7 +34,7 @@
 
 // same([1,2,3], [9,1,4]);
 
-// // colts refactored solution --- O(n)
+// // refactored solution - 3 --- O(n)
 // function same(arr1, arr2){
 //     if(arr1.length !== arr2.length){
 //         return false;
@@ -63,7 +63,7 @@
 // same([1,2,3,2,5], [9,1,4,4,11])
 
 
-// my refactored solution O(n)
+// refactored solution - 4 --- O(n)
 const same = (arr1, arr2) => {
     if(arr1.length !== arr2.length){
         return console.log('false');

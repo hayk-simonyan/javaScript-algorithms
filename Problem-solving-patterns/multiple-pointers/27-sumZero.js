@@ -1,23 +1,23 @@
-// my code - time compl---O(n^2), space compl---O(n)
-const sumZero = ( arr ) => {
-    const result = [];
-    const checked = [];
-    for ( let index in arr ) {
-        checked.push(arr[index]);
-        searching = 0 - arr[index];
-        if ( checked.includes(searching) && searching !== 0 ) {
-            console.log('in if statement');
-            result.push(arr[index]);
-            result.push(searching);
-            return console.log(result);
-        }
-    }
-    return console.log('undefined')
-}
+// // solution - 1 - time complexity ---O(n^2), space compl---O(n)
+// const sumZero = ( arr ) => {
+//     const result = [];
+//     const checked = [];
+//     for ( let index in arr ) {
+//         checked.push(arr[index]);
+//         searching = 0 - arr[index];
+//         if ( checked.includes(searching) && searching !== 0 ) {
+//             console.log('in if statement');
+//             result.push(arr[index]);
+//             result.push(searching);
+//             return console.log(result);
+//         }
+//     }
+//     return console.log('undefined')
+// }
 
-sumZero([-3,-1,0,2,3,4])
+// sumZero([-3,-1,0,2,3,4])
 
-// colts refactored + from me --- time compl --- O(n) , space compl --- O(1)
+// refactored solution - 2 --- time compl --- O(n) , space compl --- O(1)
 const sumZero = arr => {
     let left = 0;
     let right = arr.length - 1;

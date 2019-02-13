@@ -13,7 +13,7 @@
 //      averagePair([-1,0,3,4,5,6], 4.1); // false
 //      averagePair([], 4); // false
 
-// my solution
+// solution - 1
 const averagePair = (arr, avg) => {
     let left = 0;
     let right = arr.length - 1;
@@ -32,7 +32,7 @@ const averagePair = (arr, avg) => {
 averagePair([3,6,9,8,7], 5.69);
 
 
-// colts solution
+// solution - 2
 function averagePair(arr, num){
     let start = 0;
     let end = arr.length - 1;

@@ -12,7 +12,7 @@
 //  sameFrequency(3589578, 5879385) // true
 //  sameFrequency(22, 222) // false
 
-//my solution
+// solution - 1
 const  sameFrequency = (int1, int2) => {
     let str1 = int1.toString();
     let str2 = int2.toString();
@@ -52,7 +52,7 @@ sameFrequency(345, 453)
 
 
 
-// colts solution
+// solution - 2
 function sameFrequency(num1, num2){
     num1 = num1.toString();
     num2 = num2.toString();

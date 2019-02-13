@@ -16,7 +16,7 @@
 // Time Complexity - O(N)
 // Space Complexity - O(1)
 
-// my solution
+// solution - 1
 const maxSubArraySum = (arr, num) => {
     let maxSum = 0;
     let tempSum = 0;
@@ -35,7 +35,7 @@ const maxSubArraySum = (arr, num) => {
 maxSubArraySum([4,8,8,7,3,11,8,3,4], 3);
 
 
-// colts solution
+// solution - 2
 function maxSubarraySum(arr, num) {
     let maxSum = 0;
     let tempSum = 0;
