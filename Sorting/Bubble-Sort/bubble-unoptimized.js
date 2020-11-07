@@ -13,6 +13,7 @@ function bubbleSort(arr){
   return arr;
 }
 
+
 // ES2015 Version
 function bubbleSort(arr) {
   const swap = (arr, idx1, idx2) => {
